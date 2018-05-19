@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7284F0F1D6373EC0029B40D /* ViewControllerNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7284F0E1D6373EC0029B40D /* ViewControllerNumbers.swift */; };
+		D730B95A1D77A6CF00684610 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D730B9591D77A6CF00684610 /* WordsViewController.swift */; };
+		D747DE6B1D98943600B45BCA /* Home-100.png in Resources */ = {isa = PBXBuildFile; fileRef = D747DE6A1D98943500B45BCA /* Home-100.png */; };
+		D75E60461D64F2E500F5C6D0 /* EnterNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75E60451D64F2E500F5C6D0 /* EnterNumbersViewController.swift */; };
+		D76C3CF21E2AFC1D00F40E05 /* Correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D76C3CF11E2AFC1C00F40E05 /* Correct.mp3 */; };
+		D7E8ECF51D64025F00D95F2B /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECEB1D64025F00D95F2B /* 0.png */; };
+		D7E8ECF61D64025F00D95F2B /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECEC1D64025F00D95F2B /* 9.png */; };
+		D7E8ECF71D64025F00D95F2B /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECED1D64025F00D95F2B /* 8.png */; };
+		D7E8ECF81D64025F00D95F2B /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECEE1D64025F00D95F2B /* 7.png */; };
+		D7E8ECF91D64025F00D95F2B /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECEF1D64025F00D95F2B /* 6.png */; };
+		D7E8ECFA1D64025F00D95F2B /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECF01D64025F00D95F2B /* 5.png */; };
+		D7E8ECFB1D64025F00D95F2B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECF11D64025F00D95F2B /* 4.png */; };
+		D7E8ECFC1D64025F00D95F2B /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECF21D64025F00D95F2B /* 3.png */; };
+		D7E8ECFD1D64025F00D95F2B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECF31D64025F00D95F2B /* 2.png */; };
+		D7E8ECFE1D64025F00D95F2B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECF41D64025F00D95F2B /* 1.png */; };
+		D7E8ED001D640B4900D95F2B /* Path 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8ECFF1D640B4900D95F2B /* Path 3.png */; };
+		D7F6C5BC1D9B540500156116 /* EnterWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F6C5BB1D9B540500156116 /* EnterWordsViewController.swift */; };
+		D7F6C5C41D9B5D2D00156116 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F6C5C31D9B5D2D00156116 /* KeyboardViewController.swift */; };
+		D7FAFEFB1D61657300989571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FAFEFA1D61657300989571 /* AppDelegate.swift */; };
+		D7FAFEFD1D61657300989571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FAFEFC1D61657300989571 /* ViewController.swift */; };
+		D7FAFF001D61657300989571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFEFE1D61657300989571 /* Main.storyboard */; };
+		D7FAFF031D61657300989571 /* Ricordo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7FAFF011D61657300989571 /* Ricordo.xcdatamodeld */; };
+		D7FAFF051D61657400989571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF041D61657400989571 /* Assets.xcassets */; };
+		D7FAFF081D61657400989571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF061D61657400989571 /* LaunchScreen.storyboard */; };
+		D7FAFF101D61667800989571 /* iPhone 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF0F1D61667800989571 /* iPhone 6.png */; };
+		D7FAFF1E1D6166A800989571 /* Oval.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF121D6166A800989571 /* Oval.png */; };
+		D7FAFF1F1D6166A800989571 /* Points.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF131D6166A800989571 /* Points.png */; };
+		D7FAFF201D6166A800989571 /* RICORDO.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF141D6166A800989571 /* RICORDO.png */; };
+		D7FAFF211D6166A800989571 /* Lvl. 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF151D6166A800989571 /* Lvl. 5.png */; };
+		D7FAFF221D6166A800989571 /* Combined Shape.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF161D6166A800989571 /* Combined Shape.png */; };
+		D7FAFF231D6166A800989571 /* 456.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF171D6166A800989571 /* 456.png */; };
+		D7FAFF241D6166A800989571 /* words.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF181D6166A800989571 /* words.png */; };
+		D7FAFF251D6166A800989571 /* numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF191D6166A800989571 /* numbers.png */; };
+		D7FAFF261D6166A800989571 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF1A1D6166A800989571 /* Group.png */; };
+		D7FAFF271D6166A800989571 /* challenge (soon).png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF1B1D6166A800989571 /* challenge (soon).png */; };
+		D7FAFF281D6166A800989571 /* 4 8 15 16 23 42.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF1C1D6166A800989571 /* 4 8 15 16 23 42.png */; };
+		D7FAFF291D6166A800989571 /* 77_Essential_Icons_Clock.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF1D1D6166A800989571 /* 77_Essential_Icons_Clock.png */; };
+		D7FAFF2C1D6168BE00989571 /* Hanken-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF2B1D61689600989571 /* Hanken-Light.ttf */; };
+		D7FAFF2E1D625D6D00989571 /* Rectangle 13 Copy 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FAFF2D1D625D6D00989571 /* Rectangle 13 Copy 7.png */; };
+		D8EB2FBA877D2D8E348D1293 /* Pods_Ricordo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D4C4CAFDC83DDF72773DE8 /* Pods_Ricordo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2506874CA4A48371CB594818 /* Pods-Ricordo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricordo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ricordo/Pods-Ricordo.debug.xcconfig"; sourceTree = "<group>"; };
+		66D4C4CAFDC83DDF72773DE8 /* Pods_Ricordo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ricordo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		751B48117B987ACE87A444EF /* Pods-Ricordo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricordo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ricordo/Pods-Ricordo.release.xcconfig"; sourceTree = "<group>"; };
+		D7284F0E1D6373EC0029B40D /* ViewControllerNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNumbers.swift; sourceTree = "<group>"; };
+		D730B9591D77A6CF00684610 /* WordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
+		D747DE6A1D98943500B45BCA /* Home-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-100.png"; path = "../../../../../Downloads/Home-100.png"; sourceTree = "<group>"; };
+		D75E60451D64F2E500F5C6D0 /* EnterNumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterNumbersViewController.swift; sourceTree = "<group>"; };
+		D76C3CF11E2AFC1C00F40E05 /* Correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Correct.mp3; sourceTree = "<group>"; };
+		D7E8ECEB1D64025F00D95F2B /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../../../0.png; sourceTree = "<group>"; };
+		D7E8ECEC1D64025F00D95F2B /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9.png; path = ../../../9.png; sourceTree = "<group>"; };
+		D7E8ECED1D64025F00D95F2B /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = ../../../8.png; sourceTree = "<group>"; };
+		D7E8ECEE1D64025F00D95F2B /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = ../../../7.png; sourceTree = "<group>"; };
+		D7E8ECEF1D64025F00D95F2B /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = ../../../6.png; sourceTree = "<group>"; };
+		D7E8ECF01D64025F00D95F2B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../../5.png; sourceTree = "<group>"; };
+		D7E8ECF11D64025F00D95F2B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../4.png; sourceTree = "<group>"; };
+		D7E8ECF21D64025F00D95F2B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../../3.png; sourceTree = "<group>"; };
+		D7E8ECF31D64025F00D95F2B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../2.png; sourceTree = "<group>"; };
+		D7E8ECF41D64025F00D95F2B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../1.png; sourceTree = "<group>"; };
+		D7E8ECFF1D640B4900D95F2B /* Path 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Path 3.png"; path = "../../../Path 3.png"; sourceTree = "<group>"; };
+		D7F6C5BB1D9B540500156116 /* EnterWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordsViewController.swift; sourceTree = "<group>"; };
+		D7F6C5C11D9B5D2B00156116 /* WordBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WordBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F6C5C31D9B5D2D00156116 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		D7F6C5C51D9B5D2D00156116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FAFEF71D61657300989571 /* Ricordo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ricordo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FAFEFA1D61657300989571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7FAFEFC1D61657300989571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7FAFEFF1D61657300989571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7FAFF021D61657300989571 /* Ricordo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ricordo.xcdatamodel; sourceTree = "<group>"; };
+		D7FAFF041D61657400989571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FAFF071D61657400989571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7FAFF091D61657400989571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FAFF0F1D61667800989571 /* iPhone 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 6.png"; path = "../../../iPhone 6.png"; sourceTree = "<group>"; };
+		D7FAFF121D6166A800989571 /* Oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Oval.png; path = ../../../Oval.png; sourceTree = "<group>"; };
+		D7FAFF131D6166A800989571 /* Points.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Points.png; path = ../../../Points.png; sourceTree = "<group>"; };
+		D7FAFF141D6166A800989571 /* RICORDO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RICORDO.png; path = ../../../RICORDO.png; sourceTree = "<group>"; };
+		D7FAFF151D6166A800989571 /* Lvl. 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lvl. 5.png"; path = "../../../Lvl. 5.png"; sourceTree = "<group>"; };
+		D7FAFF161D6166A800989571 /* Combined Shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Combined Shape.png"; path = "../../../Combined Shape.png"; sourceTree = "<group>"; };
+		D7FAFF171D6166A800989571 /* 456.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 456.png; path = ../../../456.png; sourceTree = "<group>"; };
+		D7FAFF181D6166A800989571 /* words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = words.png; path = ../../../words.png; sourceTree = "<group>"; };
+		D7FAFF191D6166A800989571 /* numbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numbers.png; path = ../../../numbers.png; sourceTree = "<group>"; };
+		D7FAFF1A1D6166A800989571 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = ../../../Group.png; sourceTree = "<group>"; };
+		D7FAFF1B1D6166A800989571 /* challenge (soon).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "challenge (soon).png"; path = "../../../challenge (soon).png"; sourceTree = "<group>"; };
+		D7FAFF1C1D6166A800989571 /* 4 8 15 16 23 42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4 8 15 16 23 42.png"; path = "../../../4 8 15 16 23 42.png"; sourceTree = "<group>"; };
+		D7FAFF1D1D6166A800989571 /* 77_Essential_Icons_Clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 77_Essential_Icons_Clock.png; path = ../../../77_Essential_Icons_Clock.png; sourceTree = "<group>"; };
+		D7FAFF2B1D61689600989571 /* Hanken-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Hanken-Light.ttf"; path = "../../../../Downloads/hanken/Hanken-Light.ttf"; sourceTree = "<group>"; };
+		D7FAFF2D1D625D6D00989571 /* Rectangle 13 Copy 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 13 Copy 7.png"; path = "../../../Rectangle 13 Copy 7.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F6C5BE1D9B5D2B00156116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FAFEF41D61657200989571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EB2FBA877D2D8E348D1293 /* Pods_Ricordo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B063429356510FE77A4060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D4C4CAFDC83DDF72773DE8 /* Pods_Ricordo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		657CD9DACDD08B86C40BE6B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2506874CA4A48371CB594818 /* Pods-Ricordo.debug.xcconfig */,
+				751B48117B987ACE87A444EF /* Pods-Ricordo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7E8ECEA1D64024400D95F2B /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E8ECFF1D640B4900D95F2B /* Path 3.png */,
+				D7E8ECEB1D64025F00D95F2B /* 0.png */,
+				D7E8ECEC1D64025F00D95F2B /* 9.png */,
+				D7E8ECED1D64025F00D95F2B /* 8.png */,
+				D7E8ECEE1D64025F00D95F2B /* 7.png */,
+				D7E8ECEF1D64025F00D95F2B /* 6.png */,
+				D7E8ECF01D64025F00D95F2B /* 5.png */,
+				D7E8ECF11D64025F00D95F2B /* 4.png */,
+				D7E8ECF21D64025F00D95F2B /* 3.png */,
+				D7E8ECF31D64025F00D95F2B /* 2.png */,
+				D7E8ECF41D64025F00D95F2B /* 1.png */,
+			);
+			name = Numbers;
+			sourceTree = "<group>";
+		};
+		D7F6C5C21D9B5D2D00156116 /* WordBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D7F6C5C31D9B5D2D00156116 /* KeyboardViewController.swift */,
+				D7F6C5C51D9B5D2D00156116 /* Info.plist */,
+			);
+			path = WordBoard;
+			sourceTree = "<group>";
+		};
+		D7FAFEEE1D61657200989571 = {
+			isa = PBXGroup;
+			children = (
+				D76C3CF11E2AFC1C00F40E05 /* Correct.mp3 */,
+				D7FAFEF91D61657300989571 /* Ricordo */,
+				D7F6C5C21D9B5D2D00156116 /* WordBoard */,
+				D7FAFEF81D61657300989571 /* Products */,
+				657CD9DACDD08B86C40BE6B9 /* Pods */,
+				02B063429356510FE77A4060 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FAFEF81D61657300989571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAFEF71D61657300989571 /* Ricordo.app */,
+				D7F6C5C11D9B5D2B00156116 /* WordBoard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FAFEF91D61657300989571 /* Ricordo */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAFEFA1D61657300989571 /* AppDelegate.swift */,
+				D7FAFEFC1D61657300989571 /* ViewController.swift */,
+				D75E60451D64F2E500F5C6D0 /* EnterNumbersViewController.swift */,
+				D747DE6A1D98943500B45BCA /* Home-100.png */,
+				D7FAFF2A1D61688200989571 /* Fonts */,
+				D7E8ECEA1D64024400D95F2B /* Numbers */,
+				D7FAFF111D61668000989571 /* MainScene */,
+				D7FAFEFE1D61657300989571 /* Main.storyboard */,
+				D7F6C5BB1D9B540500156116 /* EnterWordsViewController.swift */,
+				D7284F0E1D6373EC0029B40D /* ViewControllerNumbers.swift */,
+				D730B9591D77A6CF00684610 /* WordsViewController.swift */,
+				D7FAFF041D61657400989571 /* Assets.xcassets */,
+				D7FAFF061D61657400989571 /* LaunchScreen.storyboard */,
+				D7FAFF091D61657400989571 /* Info.plist */,
+				D7FAFF011D61657300989571 /* Ricordo.xcdatamodeld */,
+			);
+			path = Ricordo;
+			sourceTree = "<group>";
+		};
+		D7FAFF111D61668000989571 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAFF121D6166A800989571 /* Oval.png */,
+				D7FAFF131D6166A800989571 /* Points.png */,
+				D7FAFF141D6166A800989571 /* RICORDO.png */,
+				D7FAFF151D6166A800989571 /* Lvl. 5.png */,
+				D7FAFF2D1D625D6D00989571 /* Rectangle 13 Copy 7.png */,
+				D7FAFF161D6166A800989571 /* Combined Shape.png */,
+				D7FAFF171D6166A800989571 /* 456.png */,
+				D7FAFF181D6166A800989571 /* words.png */,
+				D7FAFF191D6166A800989571 /* numbers.png */,
+				D7FAFF1A1D6166A800989571 /* Group.png */,
+				D7FAFF1B1D6166A800989571 /* challenge (soon).png */,
+				D7FAFF1C1D6166A800989571 /* 4 8 15 16 23 42.png */,
+				D7FAFF1D1D6166A800989571 /* 77_Essential_Icons_Clock.png */,
+				D7FAFF0F1D61667800989571 /* iPhone 6.png */,
+			);
+			name = MainScene;
+			sourceTree = "<group>";
+		};
+		D7FAFF2A1D61688200989571 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAFF2B1D61689600989571 /* Hanken-Light.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F6C5C01D9B5D2B00156116 /* WordBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F6C5C91D9B5D2E00156116 /* Build configuration list for PBXNativeTarget "WordBoard" */;
+			buildPhases = (
+				D7F6C5BD1D9B5D2B00156116 /* Sources */,
+				D7F6C5BE1D9B5D2B00156116 /* Frameworks */,
+				D7F6C5BF1D9B5D2B00156116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordBoard;
+			productName = WordBoard;
+			productReference = D7F6C5C11D9B5D2B00156116 /* WordBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D7FAFEF61D61657200989571 /* Ricordo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FAFF0C1D61657400989571 /* Build configuration list for PBXNativeTarget "Ricordo" */;
+			buildPhases = (
+				11DEB7854762DA688CD2229E /* [CP] Check Pods Manifest.lock */,
+				D7FAFEF31D61657200989571 /* Sources */,
+				D7FAFEF41D61657200989571 /* Frameworks */,
+				D7FAFEF51D61657200989571 /* Resources */,
+				5BD3C72331AAA8F0B9AA8F44 /* [CP] Embed Pods Frameworks */,
+				860ADF2985961B8729CA3E2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ricordo;
+			productName = Ricordo;
+			productReference = D7FAFEF71D61657300989571 /* Ricordo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FAFEEF1D61657200989571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hector Diaz";
+				TargetAttributes = {
+					D7F6C5C01D9B5D2B00156116 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D7FAFEF61D61657200989571 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QF9L972DGJ;
+					};
+				};
+			};
+			buildConfigurationList = D7FAFEF21D61657200989571 /* Build configuration list for PBXProject "Ricordo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FAFEEE1D61657200989571;
+			productRefGroup = D7FAFEF81D61657300989571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FAFEF61D61657200989571 /* Ricordo */,
+				D7F6C5C01D9B5D2B00156116 /* WordBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F6C5BF1D9B5D2B00156116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FAFEF51D61657200989571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E8ECF51D64025F00D95F2B /* 0.png in Resources */,
+				D7FAFF2C1D6168BE00989571 /* Hanken-Light.ttf in Resources */,
+				D7FAFF1F1D6166A800989571 /* Points.png in Resources */,
+				D7E8ED001D640B4900D95F2B /* Path 3.png in Resources */,
+				D7E8ECFB1D64025F00D95F2B /* 4.png in Resources */,
+				D76C3CF21E2AFC1D00F40E05 /* Correct.mp3 in Resources */,
+				D7FAFF101D61667800989571 /* iPhone 6.png in Resources */,
+				D7FAFF251D6166A800989571 /* numbers.png in Resources */,
+				D7FAFF081D61657400989571 /* LaunchScreen.storyboard in Resources */,
+				D7E8ECF71D64025F00D95F2B /* 8.png in Resources */,
+				D7FAFF231D6166A800989571 /* 456.png in Resources */,
+				D7FAFF1E1D6166A800989571 /* Oval.png in Resources */,
+				D7E8ECF91D64025F00D95F2B /* 6.png in Resources */,
+				D7FAFF271D6166A800989571 /* challenge (soon).png in Resources */,
+				D7FAFF261D6166A800989571 /* Group.png in Resources */,
+				D7E8ECFE1D64025F00D95F2B /* 1.png in Resources */,
+				D7E8ECF81D64025F00D95F2B /* 7.png in Resources */,
+				D7FAFF2E1D625D6D00989571 /* Rectangle 13 Copy 7.png in Resources */,
+				D7E8ECFD1D64025F00D95F2B /* 2.png in Resources */,
+				D7FAFF051D61657400989571 /* Assets.xcassets in Resources */,
+				D7FAFF201D6166A800989571 /* RICORDO.png in Resources */,
+				D747DE6B1D98943600B45BCA /* Home-100.png in Resources */,
+				D7E8ECF61D64025F00D95F2B /* 9.png in Resources */,
+				D7FAFF291D6166A800989571 /* 77_Essential_Icons_Clock.png in Resources */,
+				D7FAFF211D6166A800989571 /* Lvl. 5.png in Resources */,
+				D7FAFF221D6166A800989571 /* Combined Shape.png in Resources */,
+				D7E8ECFC1D64025F00D95F2B /* 3.png in Resources */,
+				D7FAFF001D61657300989571 /* Main.storyboard in Resources */,
+				D7E8ECFA1D64025F00D95F2B /* 5.png in Resources */,
+				D7FAFF241D6166A800989571 /* words.png in Resources */,
+				D7FAFF281D6166A800989571 /* 4 8 15 16 23 42.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11DEB7854762DA688CD2229E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BD3C72331AAA8F0B9AA8F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ricordo/Pods-Ricordo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860ADF2985961B8729CA3E2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ricordo/Pods-Ricordo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F6C5BD1D9B5D2B00156116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F6C5C41D9B5D2D00156116 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FAFEF31D61657200989571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D730B95A1D77A6CF00684610 /* WordsViewController.swift in Sources */,
+				D7FAFEFD1D61657300989571 /* ViewController.swift in Sources */,
+				D7F6C5BC1D9B540500156116 /* EnterWordsViewController.swift in Sources */,
+				D7284F0F1D6373EC0029B40D /* ViewControllerNumbers.swift in Sources */,
+				D7FAFF031D61657300989571 /* Ricordo.xcdatamodeld in Sources */,
+				D7FAFEFB1D61657300989571 /* AppDelegate.swift in Sources */,
+				D75E60461D64F2E500F5C6D0 /* EnterNumbersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7FAFEFE1D61657300989571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FAFEFF1D61657300989571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7FAFF061D61657400989571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FAFF071D61657400989571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F6C5CA1D9B5D2E00156116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hectordiaz.Ricordo.WordBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7F6C5CB1D9B5D2E00156116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hectordiaz.Ricordo.WordBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D7FAFF0A1D61657400989571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7FAFF0B1D61657400989571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FAFF0D1D61657400989571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2506874CA4A48371CB594818 /* Pods-Ricordo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Ricordo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.memora.hectordiaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7FAFF0E1D61657400989571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751B48117B987ACE87A444EF /* Pods-Ricordo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Ricordo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.memora.hectordiaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F6C5C91D9B5D2E00156116 /* Build configuration list for PBXNativeTarget "WordBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F6C5CA1D9B5D2E00156116 /* Debug */,
+				D7F6C5CB1D9B5D2E00156116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FAFEF21D61657200989571 /* Build configuration list for PBXProject "Ricordo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FAFF0A1D61657400989571 /* Debug */,
+				D7FAFF0B1D61657400989571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FAFF0C1D61657400989571 /* Build configuration list for PBXNativeTarget "Ricordo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FAFF0D1D61657400989571 /* Debug */,
+				D7FAFF0E1D61657400989571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7FAFF011D61657300989571 /* Ricordo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7FAFF021D61657300989571 /* Ricordo.xcdatamodel */,
+			);
+			currentVersion = D7FAFF021D61657300989571 /* Ricordo.xcdatamodel */;
+			path = Ricordo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7FAFEEF1D61657200989571 /* Project object */;
+}
